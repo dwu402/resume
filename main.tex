@@ -16,7 +16,7 @@
 \usepackage{graphicx}                    % Enable pdflatex
 \usepackage[margin=0.75in]{geometry}
 \usepackage{titlesec}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{url}
 
 \frenchspacing              % Better looking spacings after periods
@@ -32,7 +32,7 @@
 
 \titlespacing{\section}{0pt}{*1}{*1}
 \titleformat*{\section}{\titlerule[2pt] \vspace{0.5ex} \usefont{T1}{phv}{m}{v} \large}
-\renewcommand{\baselinestretch}{1.15} 
+\renewcommand{\baselinestretch}{1.225} 
 
 %%% Macros
 %%% ------------------------------------------------------------
@@ -85,6 +85,11 @@
         \noindent #1 (#2), \href{#4}{#3}, \texit{#5} #6
 }
 
+\newcommand{\AwardEntry}[3]{
+    {#1} & \multicolumn{2}{l}{#2}\\
+    & & \small{#3}\normalsize\\
+}
+
 %%% Begin Document
 %%% ------------------------------------------------------------
 \begin{document}
@@ -110,15 +115,15 @@
 %%% ------------------------------------------------------------
 \NewPart{Work experience}
 
-\WorkEntry{Research Assistant}{July 2020 - Present}{Te P\={u}naha Matatini, Casual}{Development of stochastic epidemic simulations on networks in Python to assist with New Zealand Government response to COVID-19.}
+\WorkEntry{Research Assistant}{July 2020 - Present}{Te P\={u}naha Matatini, Casual}{Development of stochastic epidemic simulations on networks in Python to assist with New Zealand Government response to COVID-19. Implementation of a novel non-Markovian event-driven simulation method for a system with over 5 million potential reactions. Statistical analysis and reporting of stochastic realisations.}
 
-\WorkEntry{Teaching Assistant}{February 2019 - Present}{University of Auckland, Part-time}{Assistance with tutoring, administration and content development of undergraduate laboratory sessions on computational methods in Python, MatLab, and C. Courses: ENGSCI233, ENGSCI263, ENGSCI331.}
+\WorkEntry{Teaching Assistant}{February 2019 - June 2022}{Department of Engineering Science, University of Auckland, Part-time}{Tutoring, administration and content development of undergraduate laboratory sessions on computational methods in Python, MatLab, and C. 2nd-year undergraduate courses in (ENGSCI233 and ENGSCI331) numerical methods for linear and nonlinear systems, ODEs, PDEs, software development practice, and computer systems; (ENGSCI263) mathematical modelling of engineering problems.}
 
 \WorkEntry{Software Engineer}{Jan 2018 - Nov 2018}{Orion Health, Full-Time}{Site reliability engineering. Automated deployment and maintenance of Elasticsearch and Rhapsody in AWS. \\Developed Ansible scripts to perform backup and migration tasks for existing Elasticsearch clusters. Extended the high-availability aspects of cloud-hosted Rhapsody service. Migrated Ansible Tower across AWS accounts, extended existing automation.}
 
 % \WorkEntry{Research Assistant}{Nov 2017 - Dec 2017}{Auckland Bioengineering Institute, Full-time}{Application of multiscale finite elements to drug diffusion in liver lobules.}
 
-\WorkEntry{Summer Student Researcher}{Nov 2016 - Mar 2017}{University of Auckland, Full-time}{Development of computational and numerical models of a pre-biotic replication system in Python and MatLab. Analysis and exploration of system behaviours and parameters.}
+\WorkEntry{Summer Student Researcher}{Nov 2016 - Mar 2017}{Department of Computer Science, University of Auckland, Full-time}{Development of computational and numerical models of a pre-biotic replication system in Python and MatLab. Analysis and exploration of system behaviours and parameters.}
 \par
 
 \WorkEntry{Tutor}{May 2016 - Nov 2016}{Students at Work, Part-time}{Individualised tuition for secondary and tertiary level mathematics and natural sciences.}
@@ -127,7 +132,7 @@
 %%% ------------------------------------------------------------
 \NewPart{Education}
 
-\EducationEntry{PhD Engineering}{Nov 2018 - Present}{Dept. Engineering Science, University of Auckland}{Thesis Topic: \textit{Data-driven Modelling and Inference of Epidemic Systems}\\ Mathematical modelling of epidemics. Stochastic simulation of large, complex systems on networks. Frequentist, Bayesian, and likelihood-based (Fisherian) inference. Practical prediction methods for misspecified models in mathematical epidemiology. Model approximation approaches.}
+\EducationEntry{PhD Engineering}{Nov 2018 - Sept 2022}{Dept. Engineering Science, University of Auckland}{Thesis Topic: \textit{Computational Methods in Epidemic Simulation, Inference and Uncertainty Quantification}\\ Mathematical modelling of epidemics. Stochastic simulation of large, complex systems on networks. Frequentist, Bayesian, and likelihood-based (Fisherian) inference. Practical prediction methods for misspecified models in mathematical epidemiology. Model approximation approaches for inference with surrogate models.}
 
 \EducationEntry{BE(Hons) Engineering Science}{Class of 2017}{University of Auckland}{GPA: 8.55/9.00 (A/A+ average)\\ Thesis Topic: \textit{Mechanistic Modelling of the Immune System's Impact on Health} \\ Computational and mathematical modelling methods. Development and parameterisation of mathematical and physical models. Continuum solid and fluid mechanics. Numerical computation methods. Optimisation methods and data analysis. Engineering decision making and project management.}
 
@@ -149,29 +154,31 @@
 \NewPart{Publications}
 \begin{enumerate}
 % \begin{tabular}{p{8.2\spacebox}}
-    \item \textbf{D. Wu}, H. Petousis-Harris, J. Paynter, V. Suresh, O. J. Maclaren, ``Likelihood-based estimation and prediction for misspecified epidemic models: an application to measles in Samoa,'' arXiv:2103.16058 [q-bio], Nov. 2021. (submitted)
+    \item \textbf{D. Wu}, H. Petousis-Harris, J. Paynter, V. Suresh, O. J. Maclaren, ``Likelihood-based estimation and prediction for misspecified epidemic models: an application to measles in Samoa,'' arXiv:2103.16058 [q-bio], Nov. 2021. (submitted to Infectious Disease Modelling)
 % \end{tabular}
+    \item Assortment of non-peer reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at \url{https://www.covid19modelling.ac.nz/reports/}
 \end{enumerate}
 
 %%% Projects and Conferences
 %%% ------------------------------------------------------------
 \NewPart{Conference and Workshop Participation}
 \begin{tabular}{p{\spacebox} p{0.5\spacebox} p{6.7\spacebox}}
+\hyperlink{https://ecmtb2022.org/}{\textbf{ECMTB}} & {2022} & {Contributed poster: ``Sneaking non-Markovian dynamics into Gillespie's direct method for epidemic simulation''}\\
 \textbf{NZWUQIP} & {2021} & {Contributed talk: ``Prediction and inference for epidemic models using likelihood-based methods''}\\
-\textbf{SMB} & {2021} & {Contributed talk: ``Likelihood-based  estimation and prediction for misspecified epidemic models: an application to measles in Samoa''}\\
+\hyperlink{https://www.smb2021.org/}{\textbf{SMB}} & {2021} & {Contributed talk: ``Likelihood-based  estimation and prediction for misspecified epidemic models: an application to measles in Samoa''}\\
 % \textbf{ESTMB} & {2020} & {Contributed talk accepted, conference cancelled due to COVID-19}\\
-\textbf{ANZIAM} & {2020} & {Contributed talk: ``Infectious disease outbreaks: inference and prediction under model misspecification and partially observed data''}\\
-\textbf{MINZ} & {2019} & {Student Moderator, Challenge 4: ``How can Mercury improve the generation efficiency of the Waikato hydro scheme?''}\\
-\textbf{SMB} & {2018} & {Contributed talk: ``A dynamical system model of host-pathogen interaction illustrates the role of the immune system in resilience to infection''}\\
+\hyperlink{http://www.maths.mq.edu.au/ANZIAM2020/}{\textbf{ANZIAM}} & {2020} & {Contributed talk: ``Infectious disease outbreaks: inference and prediction under model misspecification and partially observed data''}\\
+\hyperlink{https://minz.org.nz/2019/}{\textbf{MINZ}} & {2019} & {Student Moderator, Challenge 4: ``How can Mercury improve the generation efficiency of the Waikato hydro scheme?''}\\
+\hyperlink{http://conferences.science.unsw.edu.au/SMB2018/}{\textbf{SMB}} & {2018} & {Contributed talk: ``A dynamical system model of host-pathogen interaction illustrates the role of the immune system in resilience to infection''}\\
 \end{tabular}
 
 %%% Awards and Honours
 %%% ------------------------------------------------------------
 \NewPart{Awards and Honours}
-\begin{tabular}{p{1.0\spacebox} p{6.7\spacebox}}
-    2020 & Prime Minister's Science Prize (Te P\=unaha Matatini COVID-19 group)\\
-    2018 & University of Auckland Doctoral Scholarship\\
-    2015-7 & University of Auckland Faculty of Engineering Dean's Honours List\\
+\begin{tabular}{p{1.0\spacebox} p{0.2\spacebox} p{6.5\spacebox}}
+    \AwardEntry{2020}{Prime Minister's Science Prize (Te P\=unaha Matatini COVID-19 group)}{Awarded anually for a transformative scientific discovery or achievement, which has had a significant economic, health, social, and/or environmental impact on New Zealand, or internationally.}
+    \AwardEntry{2018}{University of Auckland Doctoral Scholarship}{Awarded to high-achieving doctoral candidates (GPA 8.0 or above) applying for admission to an approved doctoral programme at the University of Auckland.}
+    \AwardEntry{2015-17}{University of Auckland Faculty of Engineering Dean's Honours List}{Awarded annually to students who have demonstrated excellence in academic performance by being in the top 5\% of their year of study.}
 \end{tabular}
 
 %%% References
