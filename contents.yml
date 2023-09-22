@@ -1,14 +1,15 @@
+---
 meta:
     name: David Wu
     slogan: Curriculum Vitae
 
 personal_details:
     - type: Phone
-      value: (+61) 493 676 256
+      value: "(+61) 493 676 256"
     - type: Email
-      value: [david.jx.wu@gmail.com](mailto:david.jx.wu@gmail.com)
+      value: "[david.jx.wu@gmail.com](mailto:david.jx.wu@gmail.com)"
     - type: LinkedIn
-      value: [www.linkedin.com/in/david-jx-wu](www.linkedin.com/in/david-jx-wu)
+      value: "[www.linkedin.com/in/david-jx-wu](www.linkedin.com/in/david-jx-wu)"
 
 work:
     - title: Research Fellow
@@ -58,14 +59,15 @@ education:
     - title: PhD Engineering
       duration: Nov 2018 - Spet 2022
       place: Dept. Engineering Science, University of Auckland
-      note: "Thesis Topic: _Computational Methods in Epidemic Simulation, Inference and Uncertainty Quantification_"
+      notes: 
+        - "Thesis Topic: _Computational Methods in Epidemic Simulation, Inference and Uncertainty Quantification_"
       content: Mathematical modelling of epidemics. Stochastic simulation of large, complex systems on networks. Frequentist, Bayesian, and likelihood-based (Fisherian) inference. Practical prediction methods for misspecified models in mathematical epidemiology. Model approximation approaches for inference with surrogate models.
     - title: BE(Hons) Engineering Science
       duration: Class of 2017
       place: University of Auckland
-      note: |
-        GPA: 8.55/9.00 (A/A+ average)
-        Thesis Topic: _Mechanistic Modelling of the Immune System's Impact on Health_
+      notes:
+        - "GPA: 8.55/9.00 (A/A+ average)"
+        - "Thesis Topic: _Mechanistic Modelling of the Immune System's Impact on Health_"
       content: Computational and mathematical modelling methods. Development and parameterisation of mathematical and physical models. Continuum solid and fluid mechanics. Numerical computation methods. Optimisation methods and data analysis. Engineering decision making and project management.
 
 skills:
@@ -77,28 +79,30 @@ skills:
       content: AWS, MS Excel, Ansible, GIMP
 
 papers:
-    - style: paper
+    - paper: true
       authors: D. Wu, H. Petousis-Harris, J. Paynter, V. Suresh, O. J. Maclaren
       title: Likelihood-based estimation and prediction for a measles outbreak in Samoa
       journal: Infectious Disease Modelling
-      link: ["doi: 10.1016/j.idm.2023.01.007"](https://doi.org/10.1016/j.idm.2023.01.007)
-    - style: misc 
+      link: >
+        [doi: 10.1016/j.idm.2023.01.007](https://doi.org/10.1016/j.idm.2023.01.007)
+    - paper: false
       content: Assortment of non-peer reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
 
 conferences:
-    - item: [ECMTB](https://ecmtb2022.org)
+    - item: "[ECMTB](https://ecmtb2022.org)"
       time: 2022
-      content: 'Contributed poster: "Sneaking non-Markovian dynamics into Gillespie's direct method for epidemic simualtion."'
+      content: >
+        Contributed poster: "Sneaking non-Markovian dynamics into Gillespie's direct method for epidemic simualtion."
     - item: NZWUQIP
       time: 2021
-      content: 'Contributed talk: "Likelihood-based  estimation and prediction for misspecified epidemic models: an application to measles in Samoa"'
-    - item: [ANZIAM](http://www.maths.mq.edu.au/ANZIAM2020)
+      content: 'Contributed talk: "Likelihood-based estimation and prediction for misspecified epidemic models: an application to measles in Samoa"'
+    - item: "[ANZIAM](http://www.maths.mq.edu.au/ANZIAM2020)"
       time: 2020
       content: 'Contributed talk: "Infectious disease outbreaks: inference and prediction under model misspecification and partially observed data"'
-    - item: [MINZ](https:/minz.org.nz/2019/)
+    - item: "[MINZ](https:/minz.org.nz/2019/)"
       time: 2019
       content: 'Student Moderator, Challenge 4: "How can Mercury improve the generation efficiency of the Waikato hydro scheme?"'
-    - item: [SMB](http://conferences.science.unsw.edu.au/SMB2018/)
+    - item: "[SMB](http://conferences.science.unsw.edu.au/SMB2018/)"
       time: 2018
       content: 'Contributed talk: "A dynamical system model of host-pathogen interaction illustrates the role of the immune system in resilience to infection"'
 
@@ -112,3 +116,4 @@ awards:
     - title: University of Auckland Faculty of Engineering Dean's Honours List
       time: 2015-2017
       description: Awarded annually to students who have demonstrated excellence in academic performance by being in the top 5% of their year of study.
+---

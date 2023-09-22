@@ -1,0 +1,124 @@
+\documentclass[paper=a4paper,fontsize=11pt]{scrartcl}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[expansion=true]{microtype}
+\usepackage[margin=0.75in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+
+\frenchspacing
+\pagestyle{empty}
+\renewcommand{\baselinestretch}{1.125} 
+
+
+\newcommand{\pagerule}[1][2pt]{\noindent\rule{\textwidth}{#1}}
+\newcommand{\usingfont}[2]{#1 #2 \par \normalsize \normalfont}
+
+\newcommand{\sectionheader}[1]{\pagerule \vspace{0.05ex} \usingfont{\usefont{T1}{phv}{m}{v} \Large}{\noindent \hspace{-0.5em} #1} \vspace{0.5ex}}
+
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}
+
+\newcommand{\indented}[1][2em]{\noindent\hangindent=#1\hangafter=0}
+
+
+\begin{document}
+$if(meta.name)$
+\usingfont{\Huge \usefont{T1}{phv}{b}{n}}{\hfill $meta.name$}
+$else$
+\usingfont{\Huge \usefont{T1}{phv}{b}{n}}{\hfill NAME}
+$endif$
+$if(meta.slogan)$
+\usingfont{\large \usefont{T1}{phv}{m}{n}}{\hfill $meta.slogan$}
+$endif$
+
+$if(personal_details)$
+\sectionheader{Personal Details}
+$for(personal_details)$
+{\noindent\hangindent=2em\hangafter=0
+\parbox{\spacebox}{\textit{$personal_details.type$}}
+\hspace{1.5em} $personal_details.value$ \par}
+$endfor$
+$endif$
+
+$if(work)$
+\sectionheader{Work Experience}
+$for(work)$
+$if(work.visible)$
+\noindent \textbf{$work.title$} \hfill
+{$work.duration$} \par
+\noindent \textit{$work.place$, $work.type$} \par
+\indented \small {$work.content$}
+\normalsize \par\par
+$endif$
+$endfor$
+$endif$
+
+$if(education)$
+\sectionheader{Education}
+$for(education)$
+\noindent \textbf{$education.title$} \hfill
+$education.duration$ \par
+\noindent \textit{$education.place$} \par
+$if(education.notes)$
+$for(education.notes)$
+\small $education.notes$ \par
+$endfor$
+$endif$
+\indented \small $education.content$
+\normalsize \par\par
+$endfor$
+$endif$
+
+$if(skills)$
+\sectionheader{Skills}
+$for(skills)$
+\indented[1em] \parbox{\spacebox}{\textit{$skills.category$}} 
+\hspace{1.5em} $skills.content$
+\par
+$endfor$
+$endif$
+
+$if(papers)$
+\sectionheader{Papers}
+\vspace{-2ex}
+\begin{enumerate}
+\itemsep-0.25em
+$for(papers)$
+\item 
+$if(papers.paper)$
+$papers.authors$, ``$papers.title$'' in $papers.journal$ ($papers.link$)
+$else$
+$papers.content$
+$endif$
+$endfor$
+\end{enumerate}
+\vspace{-2ex}
+$endif$
+
+$if(conferences)$
+\sectionheader{Conferences}
+\vspace{0.5ex}
+\noindent 
+\begin{tabular}{p{1.1\spacebox} p{0.5\spacebox} p{6.7\spacebox}}
+$for(conferences)$
+\textbf{$conferences.item$} & $conferences.time$ & $conferences.content$ \\
+$endfor$
+\end{tabular}
+$endif$
+
+$if(awards)$
+\sectionheader{Awards and Honours}
+\begin{tabular}{p{1.0\spacebox} p{0.2\spacebox} p{6.5\spacebox}}
+$for(awards)$
+$awards.time$ & \multicolumn{2}{l}{$awards.title$} \\
+& & \small{$awards.description$}\normalsize\\ 
+$endfor$
+\end{tabular}
+$endif$
+
+\vspace{2ex}
+\pagerule
+
+\end{document}
