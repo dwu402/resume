@@ -1,0 +1,114 @@
+meta:
+    name: David Wu
+    slogan: Curriculum Vitae
+
+personal_details:
+    - type: Phone
+      value: (+61) 493 676 256
+    - type: Email
+      value: [david.jx.wu@gmail.com](mailto:david.jx.wu@gmail.com)
+    - type: LinkedIn
+      value: [www.linkedin.com/in/david-jx-wu](www.linkedin.com/in/david-jx-wu)
+
+work:
+    - title: Research Fellow
+      duration: March 2023 - Present
+      place: Dept. Econometrics and Busniess Statistics, Monash University
+      type: Full-time
+      visible: true
+      content: Modelling hospital-acquired infections in the Victorian hospital system using stochastic simulation and network methods.
+    - title: Research Assistant
+      duration: July 2020 - Feb 2023
+      place: Te Pūnaha Matatini / Covid Modelling Aotearoa
+      type: Casual
+      visible: true
+      content: Development of stochastic epidemic simulations on networks in Python to assist with New Zealand Government response to COVID-19. Implementation of a novel non-Markovian event-driven simulation method for a system with over 5 million agents. Statistical analysis and reporting of stochastic realisations utilising high-performance computing.
+    - title: Teaching Assistant
+      duration: Feb 2019 - June 2022
+      place: Dept. Engineering Science, University of Auckland
+      type: Part-time
+      visible: true
+      content: Content developement, tutoring, and administration of undergraduate laboratory sessions on numerical methods, software development practice, and computer systems in Python, MatLab, and C.
+    - title: Software Engineer
+      duration: Jan 2018 - Nov 2018
+      place: Orion Health
+      type: Full-time
+      visible: true
+      content: Site reliability engineering. Automated deployment and maintenance of Elasticsearch and Rhapsody (electronic health record interoperability platform) in AWS. Designed and executed migration plans for Ansible Tower and Elasticsearch instances.
+    - title: Research Assistant
+      duration: Nov 2017 - Dec 2017
+      place: Auckland Bioengineering Institute
+      type: Full-time
+      visible: false
+      content: Multiscale finite element modelling of drug diffusion in liver lobules.
+    - title: Summer Student Researcher
+      duration: Nov 2016 - Mar 2017
+      place: Department of Computer Science, University of Auckland
+      type: Full-time
+      visible: true
+      content: Development of computational and numerical models of a pre-biotic replication system in Python and MatLab. Analysis and exploration of system behaviours and parameters.
+    - title: Private Tutor
+      duration: May 2016 - Nov 2016
+      place: Students at Work
+      type: Casual
+      visible: false
+      content: Individualised tuition for secondary and tertiary level mathematics and natural sciences.
+
+education:
+    - title: PhD Engineering
+      duration: Nov 2018 - Spet 2022
+      place: Dept. Engineering Science, University of Auckland
+      note: "Thesis Topic: _Computational Methods in Epidemic Simulation, Inference and Uncertainty Quantification_"
+      content: Mathematical modelling of epidemics. Stochastic simulation of large, complex systems on networks. Frequentist, Bayesian, and likelihood-based (Fisherian) inference. Practical prediction methods for misspecified models in mathematical epidemiology. Model approximation approaches for inference with surrogate models.
+    - title: BE(Hons) Engineering Science
+      duration: Class of 2017
+      place: University of Auckland
+      note: |
+        GPA: 8.55/9.00 (A/A+ average)
+        Thesis Topic: _Mechanistic Modelling of the Immune System's Impact on Health_
+      content: Computational and mathematical modelling methods. Development and parameterisation of mathematical and physical models. Continuum solid and fluid mechanics. Numerical computation methods. Optimisation methods and data analysis. Engineering decision making and project management.
+
+skills:
+    - category: Laguages
+      content: English, Cantonese Chinese, Mandarin Chinese
+    - category: Programming
+      content: Python, bash, \LaTeX, MatLab, C++
+    - category: Software
+      content: AWS, MS Excel, Ansible, GIMP
+
+papers:
+    - style: paper
+      authors: D. Wu, H. Petousis-Harris, J. Paynter, V. Suresh, O. J. Maclaren
+      title: Likelihood-based estimation and prediction for a measles outbreak in Samoa
+      journal: Infectious Disease Modelling
+      link: ["doi: 10.1016/j.idm.2023.01.007"](https://doi.org/10.1016/j.idm.2023.01.007)
+    - style: misc 
+      content: Assortment of non-peer reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
+
+conferences:
+    - item: [ECMTB](https://ecmtb2022.org)
+      time: 2022
+      content: 'Contributed poster: "Sneaking non-Markovian dynamics into Gillespie's direct method for epidemic simualtion."'
+    - item: NZWUQIP
+      time: 2021
+      content: 'Contributed talk: "Likelihood-based  estimation and prediction for misspecified epidemic models: an application to measles in Samoa"'
+    - item: [ANZIAM](http://www.maths.mq.edu.au/ANZIAM2020)
+      time: 2020
+      content: 'Contributed talk: "Infectious disease outbreaks: inference and prediction under model misspecification and partially observed data"'
+    - item: [MINZ](https:/minz.org.nz/2019/)
+      time: 2019
+      content: 'Student Moderator, Challenge 4: "How can Mercury improve the generation efficiency of the Waikato hydro scheme?"'
+    - item: [SMB](http://conferences.science.unsw.edu.au/SMB2018/)
+      time: 2018
+      content: 'Contributed talk: "A dynamical system model of host-pathogen interaction illustrates the role of the immune system in resilience to infection"'
+
+awards:
+    - title: Prime Minister's Science Prize (Te Pūnaha Matatini COVID-19 group)
+      time: 2020
+      description: Awarded anually for a transformative scientific discovery or achievement, which has had a significant economic, health, social, and/or environmental impact on New Zealand, or internationally.
+    - title: University of Auckland Doctoral Scholarship
+      time: 2018
+      description: Awarded to high-achieving doctoral candidates (GPA 8.0 or above) applying for admission to an approved doctoral programme at the University of Auckland.
+    - title: University of Auckland Faculty of Engineering Dean's Honours List
+      time: 2015-2017
+      description: Awarded annually to students who have demonstrated excellence in academic performance by being in the top 5% of their year of study.
