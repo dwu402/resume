@@ -14,10 +14,10 @@ personal_details:
 work:
     - title: Research Fellow
       duration: March 2023 - Present
-      place: Dept. Econometrics and Busniess Statistics, Monash University
+      place: Dept. Econometrics and Business Statistics, Monash University
       type: Full-time
       visible: true
-      content: Modelling hospital-acquired infections in the Victorian hospital system using stochastic simulation and network methods.
+      content: Modelling the surveillance and control of hospital-acquired infections in the Victorian healthcare system using stochastic simulation and static and temporal network analysis methods.
     - title: Research Assistant
       duration: July 2020 - Feb 2023
       place: Te Pūnaha Matatini / Covid Modelling Aotearoa
@@ -29,7 +29,7 @@ work:
       place: Dept. Engineering Science, University of Auckland
       type: Part-time
       visible: true
-      content: Content developement, tutoring, and administration of undergraduate laboratory sessions on numerical methods, software development practice, and computer systems in Python, MatLab, and C.
+      content: Content development, tutoring, and administration of undergraduate laboratory sessions on numerical methods, software development practice, and computer systems in Python, MatLab, and C.
     - title: Software Engineer
       duration: Jan 2018 - Nov 2018
       place: Orion Health
@@ -71,7 +71,7 @@ education:
       content: Computational and mathematical modelling methods. Development and parameterisation of mathematical and physical models. Continuum solid and fluid mechanics. Numerical computation methods. Optimisation methods and data analysis. Engineering decision making and project management.
 
 skills:
-    - category: Laguages
+    - category: Languages
       content: English, Cantonese Chinese, Mandarin Chinese
     - category: Programming
       content: Python, bash, \LaTeX, MatLab, C++
@@ -89,10 +89,14 @@ papers:
       content: Assortment of non-peer reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
 
 conferences:
+    - item: "[Epidemics 9](https://www.elsevier.com/events/conferences/all/international-conference-on-infectious-disease-dynamics)"
+      time: 2023
+      content: >
+        Contributed poster: "Estimation of Network Epidemic Models using Surrogate Correction"
     - item: "[ECMTB](https://ecmtb2022.org)"
       time: 2022
       content: >
-        Contributed poster: "Sneaking non-Markovian dynamics into Gillespie's direct method for epidemic simualtion."
+        Contributed poster: "Sneaking non-Markovian dynamics into Gillespie's direct method for epidemic simulation"
     - item: NZWUQIP
       time: 2021
       content: 'Contributed talk: "Likelihood-based estimation and prediction for misspecified epidemic models: an application to measles in Samoa"'
@@ -109,7 +113,7 @@ conferences:
 awards:
     - title: Prime Minister's Science Prize (Te Pūnaha Matatini COVID-19 group)
       time: 2020
-      description: Awarded anually for a transformative scientific discovery or achievement, which has had a significant economic, health, social, and/or environmental impact on New Zealand, or internationally.
+      description: Awarded annually for a transformative scientific discovery or achievement, which has had a significant economic, health, social, and/or environmental impact on New Zealand, or internationally.
     - title: University of Auckland Doctoral Scholarship
       time: 2018
       description: Awarded to high-achieving doctoral candidates (GPA 8.0 or above) applying for admission to an approved doctoral programme at the University of Auckland.
