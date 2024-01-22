@@ -111,6 +111,9 @@ conferences:
       content: 'Contributed talk: "A dynamical system model of host-pathogen interaction illustrates the role of the immune system in resilience to infection"'
 
 awards:
+    - title: 2nd Place, UN Datathon (Down Under Data Wizards team) 
+      time: 2023
+      description: A data science competition focused on progressing the UN Sustainable Development Goals, approximately 150 entries. 
     - title: Prime Minister's Science Prize (Te Pūnaha Matatini COVID-19 group)
       time: 2020
       description: Awarded annually for a transformative scientific discovery or achievement, which has had a significant economic, health, social, and/or environmental impact on New Zealand, or internationally.
