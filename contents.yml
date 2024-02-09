@@ -89,6 +89,10 @@ papers:
       content: Assortment of non-peer reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
 
 conferences:
+    - item: "[ANZIAM](https://www.mathematics.org.au/sys/pages/plain.php?page_id=39&conf_id=61)"
+      time: 2024
+      content: >
+        Contributed talk: "Temporal trends of hospital transfer networks in Victoria for controlling the spread of antibiotic resistance"
     - item: "[Epidemics 9](https://www.elsevier.com/events/conferences/all/international-conference-on-infectious-disease-dynamics)"
       time: 2023
       content: >

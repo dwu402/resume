@@ -110,6 +110,7 @@ $endif$
 
 $if(awards)$
 \sectionheader{Awards and Honours}
+\vspace{0.5ex}\noindent
 \begin{tabular}{p{1.0\spacebox} p{0.2\spacebox} p{6.5\spacebox}}
 $for(awards)$
 $awards.time$ & \multicolumn{2}{l}{$awards.title$} \\
