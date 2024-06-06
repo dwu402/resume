@@ -1,0 +1,201 @@
+\documentclass[paper=a4paper,fontsize=11pt]{scrartcl}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{microtype}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+
+\frenchspacing
+\pagestyle{empty}
+\renewcommand{\baselinestretch}{1.125} 
+
+
+\newcommand{\pagerule}[1][2pt]{\noindent\rule{\textwidth}{#1}}
+\newcommand{\usingfont}[2]{#1 #2 \par \normalsize \normalfont}
+
+\newcommand{\sectionheader}[1]{\pagerule \vspace{0.05ex} \usingfont{\usefont{T1}{phv}{m}{v} \Large}{\noindent \hspace{-0.5em} #1} \vspace{0.5ex}}
+
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}
+
+\newcommand{\indented}[1][2em]{\noindent\hangindent=#1\hangafter=0}
+
+
+\begin{document}
+\usingfont{\Huge \usefont{T1}{phv}{b}{n}}{\hfill David Wu}
+\usingfont{\large \usefont{T1}{phv}{m}{n}}{\hfill Curriculum Vitae}
+
+\sectionheader{Personal Details}
+{\noindent\hangindent=2em\hangafter=0
+\parbox{\spacebox}{\textit{Phone}}
+\hspace{1.5em} (+61) 493 676 256 \par}
+{\noindent\hangindent=2em\hangafter=0
+\parbox{\spacebox}{\textit{Email}}
+\hspace{1.5em} \href{mailto:david.jx.wu@gmail.com}{\nolinkurl{david.jx.wu@gmail.com}} \par}
+{\noindent\hangindent=2em\hangafter=0
+\parbox{\spacebox}{\textit{LinkedIn}}
+\hspace{1.5em} \url{www.linkedin.com/in/david-jx-wu} \par}
+
+\sectionheader{Work Experience}
+\noindent \textbf{Research Fellow} \hfill
+{March 2023 - Present} \par
+\noindent \textit{Dept. Econometrics and Business Statistics, Monash
+University, Full-time} \par
+\indented \small {Modelling the surveillance and control of
+hospital-acquired infections in the Victorian healthcare system using
+stochastic simulation and static and temporal network analysis methods.
+Additionally, organised seminars for the
+\href{https://numbat.space}{NUMBAT} group, and tutored for courses in
+the department on
+\href{https://handbook.monash.edu/2024/units/ETC5513}{reproducible data
+practices}.}
+\normalsize \par\par
+\noindent \textbf{Research Assistant} \hfill
+{July 2020 - Feb 2023} \par
+\noindent \textit{Te Pūnaha Matatini / Covid Modelling
+Aotearoa, Casual} \par
+\indented \small {Development of stochastic epidemic simulations on
+networks in Python to assist with New Zealand Government response to
+COVID-19. Implementation of a novel non-Markovian event-driven
+simulation method for a system with over 5 million agents. Statistical
+analysis and reporting of stochastic realisations utilising
+high-performance computing.}
+\normalsize \par\par
+\noindent \textbf{Teaching Assistant} \hfill
+{Feb 2019 - June 2022} \par
+\noindent \textit{Dept. Engineering Science, University of
+Auckland, Part-time} \par
+\indented \small {Content development, tutoring, and administration of
+undergraduate laboratory sessions on numerical methods, software
+development practice, and computer systems in Python, MatLab, and C.}
+\normalsize \par\par
+\noindent \textbf{Software Engineer} \hfill
+{Jan 2018 - Nov 2018} \par
+\noindent \textit{Orion Health, Full-time} \par
+\indented \small {Site reliability engineering. Automated deployment and
+maintenance of Elasticsearch and Rhapsody (electronic health record
+interoperability platform) in AWS. Designed and executed migration plans
+for Ansible Tower and Elasticsearch instances.}
+\normalsize \par\par
+\noindent \textbf{Summer Student Researcher} \hfill
+{Nov 2016 - Mar 2017} \par
+\noindent \textit{Department of Computer Science, University of
+Auckland, Full-time} \par
+\indented \small {Development of computational and numerical models of a
+pre-biotic replication system in Python and MatLab. Analysis and
+exploration of system behaviours and parameters.}
+\normalsize \par\par
+
+\sectionheader{Education}
+\noindent \textbf{PhD Engineering} \hfill
+Nov 2018 - Sept 2022 \par
+\noindent \textit{Dept. Engineering Science, University of
+Auckland} \par
+\small Thesis Topic: \emph{Computational Methods in Epidemic Simulation,
+Inference and Uncertainty Quantification} \par
+\indented \small Mathematical modelling of epidemics. Stochastic
+simulation of large, complex systems on networks. Frequentist, Bayesian,
+and likelihood-based (Fisherian) inference. Practical prediction methods
+for misspecified models in mathematical epidemiology. Model
+approximation approaches for inference with surrogate models.
+\normalsize \par\par
+\noindent \textbf{BE(Hons) Engineering Science} \hfill
+Class of 2017 \par
+\noindent \textit{University of Auckland} \par
+\small GPA: 8.55/9.00 (A/A+ average) \par
+\small Thesis Topic: \emph{Mechanistic Modelling of the Immune System's
+Impact on Health} \par
+\indented \small Computational and mathematical modelling methods.
+Development and parameterisation of mathematical and physical models.
+Continuum solid and fluid mechanics. Numerical computation methods.
+Optimisation methods and data analysis. Engineering decision making and
+project management.
+\normalsize \par\par
+
+\sectionheader{Skills}
+\indented[1em] \parbox{\spacebox}{\textit{Languages}} 
+\hspace{1.5em} English, Cantonese Chinese, Mandarin Chinese
+\par
+\indented[1em] \parbox{\spacebox}{\textit{Programming}} 
+\hspace{1.5em} Python, bash, \LaTeX, MatLab, C++
+\par
+\indented[1em] \parbox{\spacebox}{\textit{Software}} 
+\hspace{1.5em} AWS, MS Excel, Ansible, GIMP
+\par
+
+\sectionheader{Papers}
+\vspace{-2ex}
+\begin{enumerate}
+\itemsep-0.25em
+\item 
+D. Wu, H. Petousis-Harris, J. Paynter, V. Suresh, O. J.
+Maclaren, ``Likelihood-based estimation and prediction for a measles
+outbreak in Samoa'' in Infectious Disease
+Modelling (\href{https://doi.org/10.1016/j.idm.2023.01.007}{doi:
+10.1016/j.idm.2023.01.007})
+\item 
+Assortment of non-peer-reviewed reports for the New Zealand Government
+on COVID-19 in New Zealand, archived at
+\url{https://www.covid19modelling.ac.nz/reports/}
+\end{enumerate}
+\vspace{-2ex}
+
+\sectionheader{Conferences}
+\vspace{0.5ex}
+\noindent 
+\begin{tabular}{p{1.1\spacebox} p{0.5\spacebox} p{6.7\spacebox}}
+\href{https://www.mathematics.org.au/sys/pages/plain.php?page\_id=39\&conf\_id=61}{\textbf{ANZIAM}} & 2024 & Contributed
+talk: ``Temporal trends of hospital transfer networks in Victoria for
+controlling the spread of antibiotic resistance'' \\
+\href{https://www.elsevier.com/events/conferences/all/international-conference-on-infectious-disease-dynamics}{\textbf{Epidemics
+9}} & 2023 & Contributed poster: ``Estimation of Network Epidemic Models
+using Surrogate Correction'' \\
+\href{https://ecmtb2022.org}{\textbf{ECMTB}} & 2022 & Contributed
+poster: ``Sneaking non-Markovian dynamics into Gillespie's direct method
+for epidemic simulation'' \\
+\textbf{NZWUQIP} & 2021 & Contributed talk: ``Likelihood-based
+estimation and prediction for misspecified epidemic models: an
+application to measles in Samoa'' \\
+\href{http://www.maths.mq.edu.au/ANZIAM2020}{\textbf{ANZIAM}} & 2020 & Contributed
+talk: ``Infectious disease outbreaks: inference and prediction under
+model misspecification and partially observed data'' \\
+\href{https:/minz.org.nz/2019/}{\textbf{MINZ}} & 2019 & Student
+Moderator, Challenge 4: ``How can Mercury improve the generation
+efficiency of the Waikato hydro scheme?'' \\
+\href{http://conferences.science.unsw.edu.au/SMB2018/}{\textbf{SMB}} & 2018 & Contributed
+talk: ``A dynamical system model of host-pathogen interaction
+illustrates the role of the immune system in resilience to
+infection'' \\
+\end{tabular}
+
+\sectionheader{Awards and Honours}
+\vspace{0.5ex}\noindent
+\begin{tabular}{p{1.0\spacebox} p{0.2\spacebox} p{6.5\spacebox}}
+2023 & \multicolumn{2}{l}{2nd Place, UN Datathon (Down Under Data
+Wizards team)} \\
+& & \small{A data science competition focused on progressing the UN
+Sustainable Development Goals, approximately 150 entries.}\normalsize\\ 
+2020 & \multicolumn{2}{l}{Prime Minister's Science Prize (Te Pūnaha
+Matatini COVID-19 group)} \\
+& & \small{Awarded annually for a transformative scientific discovery or
+achievement, which has had a significant economic, health, social,
+and/or environmental impact on New Zealand, or
+internationally.}\normalsize\\ 
+2018 & \multicolumn{2}{l}{University of Auckland Doctoral
+Scholarship} \\
+& & \small{Awarded to high-achieving doctoral candidates (GPA 8.0 or
+above) applying for admission to an approved doctoral program at the
+University of Auckland.}\normalsize\\ 
+2015-2017 & \multicolumn{2}{l}{University of Auckland Faculty of
+Engineering Dean's Honours List} \\
+& & \small{Awarded annually to students who have demonstrated excellence
+in academic performance by being in the top 5\% of their year of
+study.}\normalsize\\ 
+\end{tabular}
+
+\vspace{2ex}
+\pagerule
+
+\end{document}
