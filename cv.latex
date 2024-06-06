@@ -3,7 +3,7 @@
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{microtype}
-\usepackage[margin=0.5in]{geometry}
+\usepackage[margin=0.75in]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{url}
 
@@ -35,11 +35,13 @@ $endif$
 
 $if(personal_details)$
 \sectionheader{Personal Details}
+\vspace{-0.5em}
 $for(personal_details)$
 {\noindent\hangindent=2em\hangafter=0
 \parbox{\spacebox}{\textit{$personal_details.type$}}
 \hspace{1.5em} $personal_details.value$ \par}
 $endfor$
+\vspace{-0.5em}
 $endif$
 
 $if(work)$
@@ -122,8 +124,5 @@ $awards.time$ & \multicolumn{2}{l}{$awards.title$} \\
 $endfor$
 \end{tabular}
 $endif$
-
-\vspace{2ex}
-\pagerule
 
 \end{document}
