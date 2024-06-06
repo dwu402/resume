@@ -1,9 +1,8 @@
 \documentclass[paper=a4paper,fontsize=11pt]{scrartcl}
 
 \usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
 \usepackage{microtype}
-\usepackage[margin=0.5in]{geometry}
+\usepackage[margin=0.75in]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{url}
 
@@ -15,7 +14,7 @@
 \newcommand{\pagerule}[1][2pt]{\noindent\rule{\textwidth}{#1}}
 \newcommand{\usingfont}[2]{#1 #2 \par \normalsize \normalfont}
 
-\newcommand{\sectionheader}[1]{\pagerule \vspace{0.05ex} \usingfont{\usefont{T1}{phv}{m}{v} \Large}{\noindent \hspace{-0.5em} #1} \vspace{0.5ex}}
+\newcommand{\sectionheader}[1]{\pagerule \vspace{0.05ex} \usingfont{\usefont{T1}{phv}{m}{v} \Large}{\noindent \hspace{-0.5em} #1} \vspace{0.75ex}}
 
 \newlength{\spacebox}
 \settowidth{\spacebox}{8888888888}
@@ -28,6 +27,7 @@
 \usingfont{\large \usefont{T1}{phv}{m}{n}}{\hfill Curriculum Vitae}
 
 \sectionheader{Personal Details}
+\vspace{-0.5em}
 {\noindent\hangindent=2em\hangafter=0
 \parbox{\spacebox}{\textit{Phone}}
 \hspace{1.5em} (+61) 493 676 256 \par}
@@ -37,6 +37,8 @@
 {\noindent\hangindent=2em\hangafter=0
 \parbox{\spacebox}{\textit{LinkedIn}}
 \hspace{1.5em} \url{www.linkedin.com/in/david-jx-wu} \par}
+\vspace{-0.5em}
+
 
 \sectionheader{Work Experience}
 \noindent \textbf{Research Fellow} \hfill
@@ -194,8 +196,5 @@ Engineering Dean's Honours List} \\
 in academic performance by being in the top 5\% of their year of
 study.}\normalsize\\ 
 \end{tabular}
-
-\vspace{2ex}
-\pagerule
 
 \end{document}

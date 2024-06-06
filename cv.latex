@@ -15,7 +15,7 @@
 \newcommand{\pagerule}[1][2pt]{\noindent\rule{\textwidth}{#1}}
 \newcommand{\usingfont}[2]{#1 #2 \par \normalsize \normalfont}
 
-\newcommand{\sectionheader}[1]{\pagerule \vspace{0.05ex} \usingfont{\usefont{T1}{phv}{m}{v} \Large}{\noindent \hspace{-0.5em} #1} \vspace{0.5ex}}
+\newcommand{\sectionheader}[1]{\pagerule \vspace{0.05ex} \usingfont{\usefont{T1}{phv}{m}{v} \Large}{\noindent \hspace{-0.5em} #1} \vspace{0.75ex}}
 
 \newlength{\spacebox}
 \settowidth{\spacebox}{8888888888}
