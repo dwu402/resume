@@ -17,7 +17,7 @@ work:
       place: Dept. Econometrics and Business Statistics, Monash University
       type: Full-time
       visible: true
-      content: Modelling the surveillance and control of hospital-acquired infections in the Victorian healthcare system using stochastic simulation and static and temporal network analysis methods.
+      content: Modelling the surveillance and control of hospital-acquired infections in the Victorian healthcare system using stochastic simulation and static and temporal network analysis methods. Additionally, organised seminars for the [NUMBAT](https://numbat.space) group, and tutored for courses in the department on [reproducible data practices](https://handbook.monash.edu/2024/units/ETC5513).
     - title: Research Assistant
       duration: July 2020 - Feb 2023
       place: Te Pūnaha Matatini / Covid Modelling Aotearoa
@@ -89,28 +89,34 @@ papers:
       content: Assortment of non-peer reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
 
 conferences:
-    - item: "[ANZIAM](https://www.mathematics.org.au/sys/pages/plain.php?page_id=39&conf_id=61)"
+    - name: ANZIAM
+      link: https://www.mathematics.org.au/sys/pages/plain.php?page_id=39&conf_id=61
       time: 2024
       content: >
         Contributed talk: "Temporal trends of hospital transfer networks in Victoria for controlling the spread of antibiotic resistance"
-    - item: "[Epidemics 9](https://www.elsevier.com/events/conferences/all/international-conference-on-infectious-disease-dynamics)"
+    - name: Epidemics 9
+      link: https://www.elsevier.com/events/conferences/all/international-conference-on-infectious-disease-dynamics
       time: 2023
       content: >
         Contributed poster: "Estimation of Network Epidemic Models using Surrogate Correction"
-    - item: "[ECMTB](https://ecmtb2022.org)"
+    - name: ECMTB
+      link: https://ecmtb2022.org
       time: 2022
       content: >
         Contributed poster: "Sneaking non-Markovian dynamics into Gillespie's direct method for epidemic simulation"
-    - item: NZWUQIP
+    - name: NZWUQIP
       time: 2021
       content: 'Contributed talk: "Likelihood-based estimation and prediction for misspecified epidemic models: an application to measles in Samoa"'
-    - item: "[ANZIAM](http://www.maths.mq.edu.au/ANZIAM2020)"
+    - name: ANZIAM
+      link: http://www.maths.mq.edu.au/ANZIAM2020
       time: 2020
       content: 'Contributed talk: "Infectious disease outbreaks: inference and prediction under model misspecification and partially observed data"'
-    - item: "[MINZ](https:/minz.org.nz/2019/)"
+    - name: MINZ
+      link: https:/minz.org.nz/2019/
       time: 2019
       content: 'Student Moderator, Challenge 4: "How can Mercury improve the generation efficiency of the Waikato hydro scheme?"'
-    - item: "[SMB](http://conferences.science.unsw.edu.au/SMB2018/)"
+    - name: SMB
+      link: http://conferences.science.unsw.edu.au/SMB2018/
       time: 2018
       content: 'Contributed talk: "A dynamical system model of host-pathogen interaction illustrates the role of the immune system in resilience to infection"'
 

@@ -2,7 +2,7 @@
 
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
-\usepackage[expansion=true]{microtype}
+\usepackage{microtype}
 \usepackage[margin=0.5in]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{url}
@@ -103,7 +103,11 @@ $if(conferences)$
 \noindent 
 \begin{tabular}{p{1.1\spacebox} p{0.5\spacebox} p{6.7\spacebox}}
 $for(conferences)$
-\textbf{$conferences.item$} & $conferences.time$ & $conferences.content$ \\
+$if(conferences.link)$
+\href{$conferences.link$}{\textbf{$conferences.name$}} & $conferences.time$ & $conferences.content$ \\
+$else$
+\textbf{$conferences.name$} & $conferences.time$ & $conferences.content$ \\
+$endif$
 $endfor$
 \end{tabular}
 $endif$
