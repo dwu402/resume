@@ -86,7 +86,7 @@ papers:
       link: >
         [doi: 10.1016/j.idm.2023.01.007](https://doi.org/10.1016/j.idm.2023.01.007)
     - paper: false
-      content: Assortment of non-peer reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
+      content: Assortment of non-peer-reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
 
 conferences:
     - name: ANZIAM
@@ -129,7 +129,7 @@ awards:
       description: Awarded annually for a transformative scientific discovery or achievement, which has had a significant economic, health, social, and/or environmental impact on New Zealand, or internationally.
     - title: University of Auckland Doctoral Scholarship
       time: 2018
-      description: Awarded to high-achieving doctoral candidates (GPA 8.0 or above) applying for admission to an approved doctoral programme at the University of Auckland.
+      description: Awarded to high-achieving doctoral candidates (GPA 8.0 or above) applying for admission to an approved doctoral program at the University of Auckland.
     - title: University of Auckland Faculty of Engineering Dean's Honours List
       time: 2015-2017
       description: Awarded annually to students who have demonstrated excellence in academic performance by being in the top 5% of their year of study.
