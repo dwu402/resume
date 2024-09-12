@@ -1,0 +1,21 @@
+name: Push CV Up to Website
+run-name: Pushing CV up to website
+on:
+  push:
+    paths:
+      - 'cv.pdf'
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pushes the CV
+        uses: nkoppel/push-files-to-another-repository@v1.1.3
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.PUSH_CV_TOKEN }}
+        with:
+          source-files: 'cv.pdf'
+          destination-username: 'davidjxwu'
+          destination-repository: 'davidjxwu.github.io'
+          destination-directory: 'static/files'
+          commit-email: 'wu.david3001@gmail.com'
+          
