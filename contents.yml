@@ -80,12 +80,21 @@ skills:
 
 papers:
     - paper: true
+      show: false
+      authors: Lydeamore, M. J., Donker, T., Wu, D., Gorrie, C., Turner, A., Easton, M., Hennessy, D., Geard, N., Howden, B. P., Cooper, B. S., Wilson, A., Peleg, A. Y., & Stewardson, A. J.
+      title: "Carbapenemase-producing enterobacterales colonisation status does not lead to more frequent admissions: a linked patient study."
+      journal: Antimicrobial Resistance & Infection Control
+      link: >
+        [doi: 10.1186/s13756-024-01437-x](https://doi.org/10.1186/s13756-024-01437-x)
+    - paper: true
+      show: true
       authors: D. Wu, H. Petousis-Harris, J. Paynter, V. Suresh, O. J. Maclaren
       title: Likelihood-based estimation and prediction for a measles outbreak in Samoa
       journal: Infectious Disease Modelling
       link: >
         [doi: 10.1016/j.idm.2023.01.007](https://doi.org/10.1016/j.idm.2023.01.007)
     - paper: false
+      show: true
       content: Assortment of non-peer-reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
 
 conferences:

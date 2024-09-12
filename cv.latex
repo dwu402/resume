@@ -88,11 +88,13 @@ $if(papers)$
 \begin{enumerate}
 \itemsep-0.25em
 $for(papers)$
+$if(papers.show)$
 \item 
 $if(papers.paper)$
 $papers.authors$, ``$papers.title$'' in $papers.journal$ ($papers.link$)
 $else$
 $papers.content$
+$endif$
 $endif$
 $endfor$
 \end{enumerate}
