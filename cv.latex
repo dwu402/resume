@@ -116,6 +116,20 @@ $endfor$
 \end{tabular}
 $endif$
 
+$if(software)$
+\sectionheader{Software}
+\vspace{0.5ex}\noindent
+\begin{tabular}{p{1.6\spacebox} p{6.7\spacebox}}
+$for(software)$
+$if(software.link)$
+\href{$software.link$}{$software.name$} & $software.description$ \\
+$else$
+$software.name$ & $software.description$ \\
+$endif$
+$endfor$
+\end{tabular}
+$endif$
+
 $if(awards)$
 \sectionheader{Awards and Honours}
 \vspace{0.5ex}\noindent

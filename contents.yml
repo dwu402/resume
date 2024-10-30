@@ -46,7 +46,7 @@ work:
       duration: Nov 2016 - Mar 2017
       place: Department of Computer Science, University of Auckland
       type: Full-time
-      visible: true
+      visible: false
       content: Development of computational and numerical models of a pre-biotic replication system in Python and MatLab. Analysis and exploration of system behaviours and parameters.
     - title: Private Tutor
       duration: May 2016 - Nov 2016
@@ -74,7 +74,7 @@ skills:
     - category: Languages
       content: English, Cantonese Chinese, Mandarin Chinese
     - category: Programming
-      content: Python, bash, \LaTeX, MatLab, C++
+      content: Python, bash, \LaTeX, MatLab, C++, R
     - category: Software
       content: AWS, MS Excel, Ansible, GIMP
 
@@ -129,10 +129,15 @@ conferences:
       time: 2018
       content: 'Contributed talk: "A dynamical system model of host-pathogen interaction illustrates the role of the immune system in resilience to infection"'
 
+software:
+  - name: hospinet
+    link: https://pypi.org/project/hospinet/
+    description: Python port of [HospitalNetwork R package](https://cran.r-project.org/web//packages//HospitalNetwork/index.html) that cleans a patient admission database and generates a temporal network of patient transfers.
+
 awards:
     - title: 2nd Place, UN Datathon (Down Under Data Wizards team) 
       time: 2023
-      description: A data science competition focused on progressing the UN Sustainable Development Goals, approximately 150 entries. 
+      description: A data science competition focused on progressing the UN Sustainable Development Goals, with approximately 150 entries from around the world.
     - title: Prime Minister's Science Prize (Te Pūnaha Matatini COVID-19 group)
       time: 2020
       description: Awarded annually for a transformative scientific discovery or achievement, which has had a significant economic, health, social, and/or environmental impact on New Zealand, or internationally.
