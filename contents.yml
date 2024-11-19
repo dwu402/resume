@@ -1,150 +1,154 @@
 ---
 meta:
-    name: David Wu
-    slogan: Curriculum Vitae
+  name: David Wu
+  slogan: Curriculum Vitae
 
 personal_details:
-    - type: Phone
-      value: "(+61) 493 676 256"
-    - type: Email
-      value: "[david.jx.wu@gmail.com](mailto:david.jx.wu@gmail.com)"
-    - type: LinkedIn
-      value: "[www.linkedin.com/in/david-jx-wu](www.linkedin.com/in/david-jx-wu)"
+  - type: Nationality
+    value: New Zealand
+  - type: Phone
+    value: "(+61) 493 676 256"
+  - type: Email
+    value: "[david.jx.wu@gmail.com](mailto:david.jx.wu@gmail.com)"
+  - type: LinkedIn
+    value: "[www.linkedin.com/in/david-jx-wu](www.linkedin.com/in/david-jx-wu)"
 
 work:
-    - title: Research Fellow
-      duration: March 2023 - Present
-      place: Dept. Econometrics and Business Statistics, Monash University
-      type: Full-time
-      visible: true
-      content: Modelling the surveillance and control of hospital-acquired infections in the Victorian healthcare system using stochastic simulation and static and temporal network analysis methods. Additionally, organised seminars for the [NUMBAT](https://numbat.space) group, and tutored for courses in the department on [reproducible data practices](https://handbook.monash.edu/2024/units/ETC5513).
-    - title: Research Assistant
-      duration: July 2020 - Feb 2023
-      place: Te Pūnaha Matatini / Covid Modelling Aotearoa
-      type: Casual
-      visible: true
-      content: Development of stochastic epidemic simulations on networks in Python to assist with New Zealand Government response to COVID-19. Implementation of a novel non-Markovian event-driven simulation method for a system with over 5 million agents. Statistical analysis and reporting of stochastic realisations utilising high-performance computing.
-    - title: Teaching Assistant
-      duration: Feb 2019 - June 2022
-      place: Dept. Engineering Science, University of Auckland
-      type: Part-time
-      visible: true
-      content: Content development, tutoring, and administration of undergraduate laboratory sessions on numerical methods, software development practice, and computer systems in Python, MatLab, and C.
-    - title: Software Engineer
-      duration: Jan 2018 - Nov 2018
-      place: Orion Health
-      type: Full-time
-      visible: true
-      content: Site reliability engineering. Automated deployment and maintenance of Elasticsearch and Rhapsody (electronic health record interoperability platform) in AWS. Designed and executed migration plans for Ansible Tower and Elasticsearch instances.
-    - title: Research Assistant
-      duration: Nov 2017 - Dec 2017
-      place: Auckland Bioengineering Institute
-      type: Full-time
-      visible: false
-      content: Multiscale finite element modelling of drug diffusion in liver lobules.
-    - title: Summer Student Researcher
-      duration: Nov 2016 - Mar 2017
-      place: Department of Computer Science, University of Auckland
-      type: Full-time
-      visible: false
-      content: Development of computational and numerical models of a pre-biotic replication system in Python and MatLab. Analysis and exploration of system behaviours and parameters.
-    - title: Private Tutor
-      duration: May 2016 - Nov 2016
-      place: Students at Work
-      type: Casual
-      visible: false
-      content: Individualised tuition for secondary and tertiary level mathematics and natural sciences.
+  - title: Research Fellow
+    duration: March 2023 - Present
+    place: Dept. Econometrics and Business Statistics, Monash University
+    type: Full-time
+    visible: true
+    content: Modelling the surveillance and control of hospital-acquired infections in the Victorian healthcare system using stochastic simulation and network analysis methods. Additionally, organised seminars for the [NUMBAT](https://numbat.space) group, and tutored for courses in the department on [reproducible data practices](https://handbook.monash.edu/2024/units/ETC5513).
+  - title: Research Assistant
+    duration: July 2020 - Feb 2023
+    place: Te Pūnaha Matatini / Covid Modelling Aotearoa
+    type: Casual
+    visible: true
+    content: Development of stochastic epidemic simulations on networks in Python to assist with New Zealand Government response to COVID-19. Implementation of a novel non-Markovian event-driven simulation method for a system with over 5 million agents using hig-performance computing. Statistical analysis and reporting.
+  - title: Teaching Assistant
+    duration: Feb 2019 - June 2022
+    place: Dept. Engineering Science, University of Auckland
+    type: Part-time
+    visible: true
+    content: Content development, tutoring, and administration of undergraduate laboratory sessions on numerical methods, software development practice, and computer systems in Python, MatLab, and C.
+  - title: Software Engineer
+    duration: Jan 2018 - Nov 2018
+    place: Orion Health
+    type: Full-time
+    visible: true
+    content: Site reliability engineering. Automated deployment and maintenance of Elasticsearch and Rhapsody (electronic health record interoperability platform) in AWS. Designed and executed migration plans for Ansible Tower and Elasticsearch instances.
+  - title: Research Assistant
+    duration: Nov 2017 - Dec 2017
+    place: Auckland Bioengineering Institute
+    type: Full-time
+    visible: false
+    content: Multiscale finite element modelling of drug diffusion in liver lobules in C++.
+  - title: Summer Student Researcher
+    duration: Nov 2016 - Mar 2017
+    place: Department of Computer Science, University of Auckland
+    type: Full-time
+    visible: false
+    content: Development and analysis of computational and numerical models of a pre-biotic replication system in Python and MatLab.
+  - title: Private Tutor
+    duration: May 2016 - Nov 2016
+    place: Students at Work
+    type: Casual
+    visible: false
+    content: Individualised tuition for secondary and tertiary level mathematics and natural sciences.
 
 education:
-    - title: PhD Engineering
-      duration: Nov 2018 - Sept 2022
-      place: Dept. Engineering Science, University of Auckland
-      notes: 
-        - "Thesis Topic: _Computational Methods in Epidemic Simulation, Inference and Uncertainty Quantification_"
-      content: Mathematical modelling of epidemics. Stochastic simulation of large, complex systems on networks. Frequentist, Bayesian, and likelihood-based (Fisherian) inference. Practical prediction methods for misspecified models in mathematical epidemiology. Model approximation approaches for inference with surrogate models.
-    - title: BE(Hons) Engineering Science
-      duration: Class of 2017
-      place: University of Auckland
-      notes:
-        - "GPA: 8.55/9.00 (A/A+ average)"
-        - "Thesis Topic: _Mechanistic Modelling of the Immune System's Impact on Health_"
-      content: Computational and mathematical modelling methods. Development and parameterisation of mathematical and physical models. Continuum solid and fluid mechanics. Numerical computation methods. Optimisation methods and data analysis. Engineering decision making and project management.
+  - title: PhD Engineering
+    duration: Nov 2018 - Sept 2022
+    place: Dept. Engineering Science, University of Auckland
+    notes: 
+      - "Thesis Topic: _Computational Methods in Epidemic Simulation, Inference and Uncertainty Quantification_"
+    content: Mathematical modelling of epidemics. Stochastic simulation of large, complex systems on networks. Practical prediction and inference methods for misspecified models in mathematical epidemiology. Model inference approaches with surrogate models.
+  - title: BE(Hons) Engineering Science
+    duration: Class of 2017
+    place: University of Auckland
+    notes:
+      - "GPA: 8.55/9.00 (A/A+ average)"
+      - "Thesis Topic: _Mechanistic Modelling of the Immune System's Impact on Health_"
+    content: Computational and mathematical modelling methods for physical systems. Continuum solid and fluid mechanics. Optimisation methods and data analysis. Engineering decision making, operations research, and project management.
 
+skills_visible: False
 skills:
-    - category: Languages
-      content: English, Cantonese Chinese, Mandarin Chinese
-    - category: Programming
-      content: Python, bash, \LaTeX, MatLab, C++, R
-    - category: Software
-      content: AWS, MS Excel, Ansible, GIMP
+  - category: Languages
+    content: English, Cantonese Chinese, Mandarin Chinese
+  - category: Programming
+    content: Python, bash, \LaTeX, MatLab, C++, R
+  - category: Software
+    content: AWS, MS Excel, Ansible, GIMP
 
 papers:
-    - paper: true
-      show: false
-      authors: Lydeamore, M. J., Donker, T., Wu, D., Gorrie, C., Turner, A., Easton, M., Hennessy, D., Geard, N., Howden, B. P., Cooper, B. S., Wilson, A., Peleg, A. Y., & Stewardson, A. J.
-      title: "Carbapenemase-producing enterobacterales colonisation status does not lead to more frequent admissions: a linked patient study."
-      journal: Antimicrobial Resistance & Infection Control
-      link: >
-        [doi: 10.1186/s13756-024-01437-x](https://doi.org/10.1186/s13756-024-01437-x)
-    - paper: true
-      show: true
-      authors: D. Wu, H. Petousis-Harris, J. Paynter, V. Suresh, O. J. Maclaren
-      title: Likelihood-based estimation and prediction for a measles outbreak in Samoa
-      journal: Infectious Disease Modelling
-      link: >
-        [doi: 10.1016/j.idm.2023.01.007](https://doi.org/10.1016/j.idm.2023.01.007)
-    - paper: false
-      show: true
-      content: Assortment of non-peer-reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
+  - paper: true
+    show: false
+    authors: Lydeamore, M. J., Donker, T., Wu, D., Gorrie, C., Turner, A., Easton, M., Hennessy, D., Geard, N., Howden, B. P., Cooper, B. S., Wilson, A., Peleg, A. Y., & Stewardson, A. J.
+    title: "Carbapenemase-producing enterobacterales colonisation status does not lead to more frequent admissions: a linked patient study."
+    journal: Antimicrobial Resistance & Infection Control
+    link: >
+      [doi: 10.1186/s13756-024-01437-x](https://doi.org/10.1186/s13756-024-01437-x)
+  - paper: true
+    show: true
+    authors: D. Wu, H. Petousis-Harris, J. Paynter, V. Suresh, O. J. Maclaren
+    title: Likelihood-based estimation and prediction for a measles outbreak in Samoa
+    journal: Infectious Disease Modelling
+    link: >
+      [doi: 10.1016/j.idm.2023.01.007](https://doi.org/10.1016/j.idm.2023.01.007)
+  - paper: false
+    show: true
+    content: Assortment of non-peer-reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
 
 conferences:
-    - name: ANZIAM
-      link: https://www.mathematics.org.au/sys/pages/plain.php?page_id=39&conf_id=61
-      time: 2024
-      content: >
-        Contributed talk: "Temporal trends of hospital transfer networks in Victoria for controlling the spread of antibiotic resistance"
-    - name: Epidemics 9
-      link: https://www.elsevier.com/events/conferences/all/international-conference-on-infectious-disease-dynamics
-      time: 2023
-      content: >
-        Contributed poster: "Estimation of Network Epidemic Models using Surrogate Correction"
-    - name: ECMTB
-      link: https://ecmtb2022.org
-      time: 2022
-      content: >
-        Contributed poster: "Sneaking non-Markovian dynamics into Gillespie's direct method for epidemic simulation"
-    - name: NZWUQIP
-      time: 2021
-      content: 'Contributed talk: "Likelihood-based estimation and prediction for misspecified epidemic models: an application to measles in Samoa"'
-    - name: ANZIAM
-      link: http://www.maths.mq.edu.au/ANZIAM2020
-      time: 2020
-      content: 'Contributed talk: "Infectious disease outbreaks: inference and prediction under model misspecification and partially observed data"'
-    - name: MINZ
-      link: https:/minz.org.nz/2019/
-      time: 2019
-      content: 'Student Moderator, Challenge 4: "How can Mercury improve the generation efficiency of the Waikato hydro scheme?"'
-    - name: SMB
-      link: http://conferences.science.unsw.edu.au/SMB2018/
-      time: 2018
-      content: 'Contributed talk: "A dynamical system model of host-pathogen interaction illustrates the role of the immune system in resilience to infection"'
+  - name: ANZIAM
+    link: https://www.mathematics.org.au/sys/pages/plain.php?page_id=39&conf_id=61
+    time: 2024
+    content: >
+      Contributed talk: "Temporal trends of hospital transfer networks in Victoria for controlling the spread of antibiotic resistance"
+  - name: Epidemics 9
+    link: https://www.elsevier.com/events/conferences/all/international-conference-on-infectious-disease-dynamics
+    time: 2023
+    content: >
+      Contributed poster: "Estimation of Network Epidemic Models using Surrogate Correction"
+  - name: ECMTB
+    link: https://ecmtb2022.org
+    time: 2022
+    content: >
+      Contributed poster: "Sneaking non-Markovian dynamics into Gillespie's direct method for epidemic simulation"
+  - name: NZWUQIP
+    time: 2021
+    content: 'Contributed talk: "Likelihood-based estimation and prediction for misspecified epidemic models: an application to measles in Samoa"'
+  - name: ANZIAM
+    link: http://www.maths.mq.edu.au/ANZIAM2020
+    time: 2020
+    content: 'Contributed talk: "Infectious disease outbreaks: inference and prediction under model misspecification and partially observed data"'
+  - name: MINZ
+    link: https:/minz.org.nz/2019/
+    time: 2019
+    content: 'Student Moderator, Challenge 4: "How can Mercury improve the generation efficiency of the Waikato hydro scheme?"'
+  - name: SMB
+    link: http://conferences.science.unsw.edu.au/SMB2018/
+    time: 2018
+    content: 'Contributed talk: "A dynamical system model of host-pathogen interaction illustrates the role of the immune system in resilience to infection"'
 
 software:
-  - name: hospinet
-    link: https://pypi.org/project/hospinet/
-    description: Python port of [HospitalNetwork R package](https://cran.r-project.org/web//packages//HospitalNetwork/index.html) that cleans a patient admission database and generates a temporal network of patient transfers.
+- name: hospinet
+  link: https://pypi.org/project/hospinet/
+  description: Python port of [HospitalNetwork R package](https://cran.r-project.org/web//packages//HospitalNetwork/index.html) that cleans a patient admission database and generates a temporal network of patient transfers.
 
+awards_long: false
 awards:
-    - title: 2nd Place, UN Datathon (Down Under Data Wizards team) 
-      time: 2023
-      description: A data science competition focused on progressing the UN Sustainable Development Goals, with approximately 150 entries from around the world.
-    - title: Prime Minister's Science Prize (Te Pūnaha Matatini COVID-19 group)
-      time: 2020
-      description: Awarded annually for a transformative scientific discovery or achievement, which has had a significant economic, health, social, and/or environmental impact on New Zealand, or internationally.
-    - title: University of Auckland Doctoral Scholarship
-      time: 2018
-      description: Awarded to high-achieving doctoral candidates (GPA 8.0 or above) applying for admission to an approved doctoral program at the University of Auckland.
-    - title: University of Auckland Faculty of Engineering Dean's Honours List
-      time: 2015-2017
-      description: Awarded annually to students who have demonstrated excellence in academic performance by being in the top 5% of their year of study.
+  - title: 2nd Place, UN Datathon (Down Under Data Wizards team) 
+    time: 2023
+    description: A data science competition focused on progressing the UN Sustainable Development Goals, with approximately 150 entries from around the world.
+  - title: New Zealand Prime Minister's Science Prize (Te Pūnaha Matatini COVID-19 group)
+    time: 2020
+    description: Awarded annually for a transformative scientific discovery or achievement, which has had a significant economic, health, social, and/or environmental impact on New Zealand, or internationally.
+  - title: University of Auckland Doctoral Scholarship
+    time: 2018
+    description: Awarded to high-achieving doctoral candidates (GPA 8.0 or above) applying for admission to an approved doctoral program at the University of Auckland.
+  - title: University of Auckland Faculty of Engineering Dean's Honours List
+    time: 2015-2017
+    description: Awarded annually to students who have demonstrated excellence in academic performance by being in the top 5% of their year of study.
 ---
