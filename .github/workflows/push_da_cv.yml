@@ -16,6 +16,6 @@ jobs:
           source-files: 'cv.pdf'
           destination-username: 'davidjxwu'
           destination-repository: 'davidjxwu.github.io'
-          destination-directory: 'static/files'
+          destination-directory: 'resource'
           commit-email: 'wu.david3001@gmail.com'
           
