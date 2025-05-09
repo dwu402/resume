@@ -72,15 +72,16 @@ education:
       - "Thesis Topic: _Mechanistic Modelling of the Immune System's Impact on Health_"
     content: Computational and mathematical modelling methods for physical systems. Continuum solid and fluid mechanics. Optimisation methods and data analysis. Engineering decision making, operations research, and project management.
 
-skills_visible: True
+show_skills: True
 skills:
   - category: Languages
     content: English, Cantonese Chinese, Mandarin Chinese
   - category: Programming
-    content: Python, bash, \LaTeX, MatLab, C++, R
+    content: Python, bash, SQL, \LaTeX, MatLab, C++, R
   - category: Software
     content: AWS, MS Excel, Ansible, GIMP
 
+show_papers: True 
 papers:
   - paper: true
     show: false
@@ -100,6 +101,7 @@ papers:
     show: true
     content: Assortment of non-peer-reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
 
+show_conferences: True
 conferences:
   - name: ANZIAM
     link: https://www.mathematics.org.au/sys/pages/plain.php?page_id=39&conf_id=61

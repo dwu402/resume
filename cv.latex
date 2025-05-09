@@ -73,8 +73,8 @@ $endif$
 $endfor$
 $endif$
 
+$if(show_skills)$
 $if(skills)$
-$if(skills_visible)$
 \sectionheader{Skills}
 $for(skills)$
 \indented[1em] \parbox{\spacebox}{\textit{$skills.category$}} 
@@ -84,6 +84,7 @@ $endfor$
 $endif$
 $endif$
 
+$if(show_papers)$
 $if(papers)$
 \sectionheader{Papers}
 \vspace{-2ex}
@@ -102,7 +103,9 @@ $endfor$
 \end{enumerate}
 \vspace{-2ex}
 $endif$
+$endif$
 
+$if(show_conferences)$
 $if(conferences)$
 \sectionheader{Conferences}
 \vspace{0.5ex}
@@ -116,6 +119,7 @@ $else$
 $endif$
 $endfor$
 \end{tabular}
+$endif$
 $endif$
 
 $if(software)$
