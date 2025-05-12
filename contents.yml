@@ -4,8 +4,8 @@ meta:
   slogan: Curriculum Vitae
 
 personal_details:
-  - type: Nationality
-    value: New Zealand
+  - type: Visa Status
+    value: New Zealand Citizen
   - type: Phone
     value: "(+61) 493 676 256"
   - type: Email
