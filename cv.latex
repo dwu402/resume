@@ -15,7 +15,7 @@
 \newcommand{\pagerule}[1][2pt]{\noindent\rule{\textwidth}{#1}}
 \newcommand{\usingfont}[2]{#1 #2 \par \normalsize \normalfont}
 
-\newcommand{\sectionheader}[1]{\pagerule \vspace{0.05ex} \usingfont{\usefont{T1}{phv}{m}{v} \Large}{\noindent \hspace{-0.5em} #1} \vspace{0.75ex}}
+\newcommand{\sectionheader}[1]{\pagerule \vspace{0.05ex} \usingfont{\usefont{T1}{phv}{m}{v} \Large}{\noindent \hspace{-0.5em} #1} \vspace{0.5ex}}
 
 \newlength{\spacebox}
 \settowidth{\spacebox}{8888888888}
@@ -25,9 +25,9 @@
 
 \begin{document}
 $if(meta.name)$
-\usingfont{\Huge \usefont{T1}{phv}{b}{n}}{\hfill $meta.name$}
+\usingfont{\Large \usefont{T1}{phv}{b}{n}}{\hfill $meta.name$}
 $else$
-\usingfont{\Huge \usefont{T1}{phv}{b}{n}}{\hfill NAME}
+\usingfont{\Large \usefont{T1}{phv}{b}{n}}{\hfill NAME}
 $endif$
 $if(meta.slogan)$
 \usingfont{\large \usefont{T1}{phv}{m}{n}}{\hfill $meta.slogan$}

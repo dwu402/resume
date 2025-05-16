@@ -8,8 +8,10 @@ personal_details:
     value: New Zealand Citizen
   - type: Phone
     value: "(+61) 493 676 256"
+    # value: REDACTED
   - type: Email
     value: "[david.jx.wu@gmail.com](mailto:david.jx.wu@gmail.com)"
+    # value: REDACTED
   - type: LinkedIn
     value: "[www.linkedin.com/in/david-jx-wu](www.linkedin.com/in/david-jx-wu)"
 
@@ -19,13 +21,13 @@ work:
     place: Dept. Econometrics and Business Statistics, Monash University
     type: Full-time
     visible: true
-    content: Modelling the surveillance and control of hospital-acquired infections in the Victorian healthcare system using stochastic simulation and network analysis methods. Additionally, organised seminars for the [NUMBAT](https://numbat.space) group, and tutored for courses in the department on [reproducible data practices](https://handbook.monash.edu/2024/units/ETC5513).
+    content: Modelling the surveillance and control of hospital-acquired infections in the Victorian healthcare system using stochastic simulation and network analysis methods in Python, using igraph, polars, matplotlib, and bespoke code. Raw data cleaning and processing in SQL and Python. Report and presentation writing using Quarto and \LaTeX. Organised seminars for the [NUMBAT](https://numbat.space) group, and tutored for courses in the department on [reproducible data practices](https://handbook.monash.edu/2024/units/ETC5513).
   - title: Research Assistant
     duration: July 2020 - Feb 2023
     place: Te Pūnaha Matatini / Covid Modelling Aotearoa
     type: Casual
     visible: true
-    content: Development of stochastic epidemic simulations on networks in Python to assist with New Zealand Government response to COVID-19. Implementation of a novel non-Markovian event-driven simulation method for a system with over 5 million agents using high-performance computing. Statistical analysis and reporting.
+    content: Development of stochastic epidemic simulations on networks in Python to assist with New Zealand Government response to COVID-19. Implementation of a novel non-Markovian event-driven simulation method for a system with over 5 million agents using high-performance computing. Statistical analysis and reporting with pandas, matplotlib, and \LaTeX.
   - title: Teaching Assistant
     duration: Feb 2019 - June 2022
     place: Dept. Engineering Science, University of Auckland
