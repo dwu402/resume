@@ -21,7 +21,7 @@ work:
     place: Dept. Econometrics and Business Statistics, Monash University
     type: Full-time
     visible: true
-    content: Modelling the surveillance and control of hospital-acquired infections in the Victorian healthcare system using stochastic simulation and network analysis methods in Python, using igraph, polars, matplotlib, and bespoke code. Raw data cleaning and processing in SQL and Python. Report and presentation writing using Quarto and \LaTeX. Organised seminars for the [NUMBAT](https://numbat.space) group, and tutored for courses in the department on [reproducible data practices](https://handbook.monash.edu/2024/units/ETC5513).
+    content: Modelling the surveillance and control of hospital-acquired infections in the Victorian healthcare system using stochastic simulation and network analysis methods in Python. Raw data cleaning and processing in SQL and Python. Report and presentation writing using Quarto and \LaTeX. Organised seminars for the [NUMBAT](https://numbat.space) group, and tutored for courses in the department on [reproducible data practices](https://handbook.monash.edu/2024/units/ETC5513).
   - title: Research Assistant
     duration: July 2020 - Feb 2023
     place: Te Pūnaha Matatini / Covid Modelling Aotearoa
@@ -83,7 +83,7 @@ skills:
   - category: Software
     content: AWS, MS Excel, Ansible, GIMP
 
-show_papers: True 
+show_papers: false 
 papers:
   - paper: true
     show: false
@@ -103,7 +103,7 @@ papers:
     show: true
     content: Assortment of non-peer-reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
 
-show_conferences: True
+show_conferences: false 
 conferences:
   - name: ANZIAM
     link: https://www.mathematics.org.au/sys/pages/plain.php?page_id=39&conf_id=61

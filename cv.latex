@@ -25,9 +25,9 @@
 
 \begin{document}
 $if(meta.name)$
-\usingfont{\Large \usefont{T1}{phv}{b}{n}}{\hfill $meta.name$}
+\usingfont{\huge \usefont{T1}{phv}{b}{n}}{\hfill $meta.name$}
 $else$
-\usingfont{\Large \usefont{T1}{phv}{b}{n}}{\hfill NAME}
+\usingfont{\huge \usefont{T1}{phv}{b}{n}}{\hfill NAME}
 $endif$
 $if(meta.slogan)$
 \usingfont{\large \usefont{T1}{phv}{m}{n}}{\hfill $meta.slogan$}
