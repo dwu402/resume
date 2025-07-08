@@ -99,7 +99,7 @@ skills:
   - category: Languages
     content: English, Cantonese Chinese, Mandarin Chinese
   - category: Programming
-    content: Python, bash, SQL, \LaTeX, MatLab, C++, R
+    content: Python, bash, git, SQL, \LaTeX, MatLab, C++, R
   - category: Software
     content: AWS, MS Excel, Ansible, GIMP
 
