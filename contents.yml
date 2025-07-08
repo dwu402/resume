@@ -6,6 +6,8 @@ meta:
 personal_details:
   - type: Visa Status
     value: New Zealand Citizen
+  - type: Location
+    value: Melbourne, VIC, Australia
   - type: Phone
     value: "(+61) 493 676 256"
     # value: REDACTED
@@ -16,48 +18,62 @@ personal_details:
     value: "[www.linkedin.com/in/david-jx-wu](www.linkedin.com/in/david-jx-wu)"
 
 work:
-  - title: Research Fellow
+  - title: Research Fellow -- Dept. Econometrics and Business Statistics
     duration: March 2023 - Present
-    place: Dept. Econometrics and Business Statistics, Monash University
+    place: Monash University
     type: Full-time
     visible: true
-    content: Modelling the surveillance and control of hospital-acquired infections in the Victorian healthcare system using stochastic simulation and network analysis methods in Python. Raw data cleaning and processing in SQL and Python. Report and presentation writing using Quarto and \LaTeX. Organised seminars for the [NUMBAT](https://numbat.space) group, and tutored for courses in the department on [reproducible data practices](https://handbook.monash.edu/2024/units/ETC5513).
+    content:
+      - Modelled movement of patients between Victorian healthcare facilities using stochastic simulation and network analysis methods in Python. 
+      - Implemented a data cleaning and processing tool using polars, published on [pypi as hospinet](https://pypi.org/project/hospinet).
+      - Report and presentation writing using Quarto and \LaTeX. 
+      - Organised seminars for the [NUMBAT](https://numbat.space) group, and tutored for courses in the department on [reproducible data practices](https://handbook.monash.edu/2024/units/ETC5513).
   - title: Research Assistant
     duration: July 2020 - Feb 2023
     place: Te Pūnaha Matatini / Covid Modelling Aotearoa
     type: Casual
     visible: true
-    content: Development of stochastic epidemic simulations on networks in Python to assist with New Zealand Government response to COVID-19. Implementation of a novel non-Markovian event-driven simulation method for a system with over 5 million agents using high-performance computing. Statistical analysis and reporting with pandas, matplotlib, and \LaTeX.
-  - title: Teaching Assistant
+    content:
+      - Developed a bespoke Python package for stochastic epidemic simulation on bipartite networks to support the New Zealand Government's decision-making during COVID-19.
+      - Implemented of a novel non-Markovian event-driven simulation method for a system with over 5 million agents using high-performance computing. 
+      - Statistical analysis and reporting with pandas and \LaTeX.
+  - title: Teaching Assistant -- Dept. Engineering Science
     duration: Feb 2019 - June 2022
-    place: Dept. Engineering Science, University of Auckland
+    place: University of Auckland
     type: Part-time
     visible: true
-    content: Content development, tutoring, and administration of undergraduate laboratory sessions on numerical methods, software development practice, and computer systems in Python, MatLab, and C.
+    content: 
+      - Developed teaching content, delivered tutorials, and performed administration for undergraduate-level laboratory sessions on numerical methods and software development practice in Python, MatLab, and C.
   - title: Software Engineer
     duration: Jan 2018 - Nov 2018
     place: Orion Health
     type: Full-time
     visible: true
-    content: Site reliability engineering. Automated deployment and maintenance of Elasticsearch and Rhapsody (electronic health record interoperability platform) in AWS. Designed and executed migration plans for Ansible Tower and Elasticsearch instances.
+    content: 
+      - Migrated Elasticseach and Ansible Tower instances on AWS.
+      - Implemented jumphost and internal workspace tooling.
+      - Contributed towards ongoing maintenance and automated deployment of Elasticsearch and Rhapsody (electronic health record interoperability platform) services on AWS.
   - title: Research Assistant
     duration: Nov 2017 - Dec 2017
     place: Auckland Bioengineering Institute
     type: Full-time
     visible: false
-    content: Multiscale finite element modelling of drug diffusion in liver lobules in C++.
-  - title: Summer Student Researcher
+    content: 
+      - Multiscale finite element modelling of drug diffusion in liver lobules in C++.
+  - title: Summer Student Researcher - Dept. Computer Science
     duration: Nov 2016 - Mar 2017
-    place: Department of Computer Science, University of Auckland
+    place: University of Auckland
     type: Full-time
     visible: false
-    content: Development and analysis of computational and numerical models of a pre-biotic replication system in Python and MatLab.
+    content: 
+      - Analysed computational and numerical models of a pre-biotic replciation system in Python and MatLab.
   - title: Private Tutor
     duration: May 2016 - Nov 2016
     place: Students at Work
     type: Casual
     visible: false
-    content: Individualised tuition for secondary and tertiary level mathematics and natural sciences.
+    content: 
+      - Developed teaching material and delivered tutoring for secondary school and first-year undergraduate-level mathematics and natural sciences.
 
 education:
   - title: PhD Engineering
@@ -65,14 +81,18 @@ education:
     place: Dept. Engineering Science, University of Auckland
     notes: 
       - "Thesis Topic: _Computational Methods in Epidemic Simulation, Inference and Uncertainty Quantification_"
-    content: Mathematical modelling of epidemics. Stochastic simulation of large, complex systems on networks. Practical prediction and inference methods for misspecified models in mathematical epidemiology. Model inference approaches with surrogate models.
+    content: 
+      Modelled epidemic outbreaks of measles in Western Samoa and COVID-19 in New Zealand.
+      Developed a procedure for prediction and statistical inference of misspecified dynamical system models.
+      Explored methodology for inference of stochastic dynamics on networks using surrogate modelling.
   - title: BE(Hons) Engineering Science
     duration: Class of 2017
     place: University of Auckland
     notes:
       - "GPA: 8.55/9.00 (A/A+ average)"
       - "Thesis Topic: _Mechanistic Modelling of the Immune System's Impact on Health_"
-    content: Computational and mathematical modelling methods for physical systems. Continuum solid and fluid mechanics. Optimisation methods and data analysis. Engineering decision making, operations research, and project management.
+    content: 
+      Courses in numerical methods for modelling physical systems, operations research and optimisation, and data analysis.
 
 show_skills: True
 skills:
@@ -101,7 +121,7 @@ papers:
       [doi: 10.1016/j.idm.2023.01.007](https://doi.org/10.1016/j.idm.2023.01.007)
   - paper: false
     show: true
-    content: Assortment of non-peer-reviewed reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
+    content: Assortment of reports for the New Zealand Government on COVID-19 in New Zealand, archived at [https://www.covid19modelling.ac.nz/reports/](https://www.covid19modelling.ac.nz/reports/)
 
 show_conferences: false 
 conferences:
@@ -155,4 +175,8 @@ awards:
   - title: University of Auckland Faculty of Engineering Dean's Honours List
     time: 2015-2017
     description: Awarded annually to students who have demonstrated excellence in academic performance by being in the top 5% of their year of study.
+  - title: First in Course Award for MATHS340 (Real and Complex Calculus)
+    time: 2016 S2 
+    description: Awarded to recognise the students who received the highest overall marks in taught courses.
+ 
 ---

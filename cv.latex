@@ -48,10 +48,17 @@ $if(work)$
 \sectionheader{Work Experience}
 $for(work)$
 $if(work.visible)$
-\noindent \textbf{$work.title$} \hfill
+\noindent \textbf{$work.place$} \hfill
 {$work.duration$} \par
-\noindent \textit{$work.place$, $work.type$} \par
-\indented \small {$work.content$}
+\noindent \textit{$work.title$, $work.type$} \par
+\indented \small {
+    \begin{itemize}
+    \setlength{\itemsep}{0ex}
+    $for(work.content)$
+    \item $work.content$
+    $endfor$
+    \end{itemize}
+}
 \normalsize \par\par
 $endif$
 $endfor$
