@@ -10,28 +10,26 @@ personal_details:
     value: Melbourne, VIC, Australia
   - type: Phone
     value: "(+61) 493 676 256"
-    # value: REDACTED
+    censor: REDACTED
   - type: Email
     value: "[david.jx.wu@gmail.com](mailto:david.jx.wu@gmail.com)"
-    # value: REDACTED
+    censor: REDACTED
   - type: LinkedIn
     value: "[www.linkedin.com/in/david-jx-wu](www.linkedin.com/in/david-jx-wu)"
 
 work:
   - title: Research Fellow -- Dept. Econometrics and Business Statistics
-    duration: March 2023 - Present
+    duration: March 2023 - September 2025 
     place: Monash University
-    type: Full-time
     visible: true
     content:
       - Modelled movement of patients between Victorian healthcare facilities using stochastic simulation and network analysis methods in Python. 
-      - Implemented a data cleaning and processing tool using polars, published on [pypi as hospinet](https://pypi.org/project/hospinet).
+      - Implemented a data cleaning and processing tool using polars, published on [pypi as `hospinet`](https://pypi.org/project/hospinet).
       - Report and presentation writing using Quarto and \LaTeX. 
       - Organised seminars for the [NUMBAT](https://numbat.space) group, and tutored for courses in the department on [reproducible data practices](https://handbook.monash.edu/2024/units/ETC5513).
   - title: Research Assistant
     duration: July 2020 - Feb 2023
     place: Te Pūnaha Matatini / Covid Modelling Aotearoa
-    type: Casual
     visible: true
     content:
       - Developed a bespoke Python package for stochastic epidemic simulation on bipartite networks to support the New Zealand Government's decision-making during COVID-19.
@@ -40,37 +38,32 @@ work:
   - title: Teaching Assistant -- Dept. Engineering Science
     duration: Feb 2019 - June 2022
     place: University of Auckland
-    type: Part-time
     visible: true
     content: 
       - Developed teaching content, delivered tutorials, and performed administration for undergraduate-level laboratory sessions on numerical methods and software development practice in Python, MatLab, and C.
-  - title: Software Engineer
+  - title: Software Engineer (Software Reliability Engineering)
     duration: Jan 2018 - Nov 2018
     place: Orion Health
-    type: Full-time
     visible: true
     content: 
       - Migrated Elasticseach and Ansible Tower instances on AWS.
       - Implemented jumphost and internal workspace tooling.
-      - Contributed towards ongoing maintenance and automated deployment of Elasticsearch and Rhapsody (electronic health record interoperability platform) services on AWS.
+      - Contributed towards ongoing maintenance and Cloudformation automated deployment of Elasticsearch and Rhapsody (electronic health record interoperability platform) services on AWS.
   - title: Research Assistant
     duration: Nov 2017 - Dec 2017
     place: Auckland Bioengineering Institute
-    type: Full-time
     visible: false
     content: 
       - Multiscale finite element modelling of drug diffusion in liver lobules in C++.
   - title: Summer Student Researcher - Dept. Computer Science
     duration: Nov 2016 - Mar 2017
     place: University of Auckland
-    type: Full-time
     visible: false
     content: 
       - Analysed computational and numerical models of a pre-biotic replciation system in Python and MatLab.
   - title: Private Tutor
     duration: May 2016 - Nov 2016
     place: Students at Work
-    type: Casual
     visible: false
     content: 
       - Developed teaching material and delivered tutoring for secondary school and first-year undergraduate-level mathematics and natural sciences.
@@ -157,9 +150,12 @@ conferences:
     content: 'Contributed talk: "A dynamical system model of host-pathogen interaction illustrates the role of the immune system in resilience to infection"'
 
 software:
-- name: hospinet
+- name: "`hospinet`"
   link: https://pypi.org/project/hospinet/
   description: Python port of [HospitalNetwork R package](https://cran.r-project.org/web//packages//HospitalNetwork/index.html) that cleans a patient admission database and generates a temporal network of patient transfers.
+- name: "`cobin`"
+  link: https://gitlab.com/cma-public-projects/cobin
+  description: Python implementation of semi-Markovian contagion dynamics on a large bipartite network.
 
 awards_long: false
 awards:

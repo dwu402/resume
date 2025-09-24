@@ -39,7 +39,15 @@ $if(personal_details)$
 $for(personal_details)$
 {\noindent\hangindent=2em\hangafter=0
 \parbox{\spacebox}{\textit{$personal_details.type$}}
+$if(censoring)$
+$if(personal_details.censor)$
+\hspace{1.5em} $personal_details.censor$ \par}
+$else$
 \hspace{1.5em} $personal_details.value$ \par}
+$endif$
+$else$
+\hspace{1.5em} $personal_details.value$ \par}
+$endif$
 $endfor$
 \vspace{-0.5em}
 $endif$
@@ -50,7 +58,7 @@ $for(work)$
 $if(work.visible)$
 \noindent \textbf{$work.place$} \hfill
 {$work.duration$} \par
-\noindent \textit{$work.title$, $work.type$} \par
+\noindent \textit{$work.title$} \par
 \indented \small {
     \begin{itemize}
     \setlength{\itemsep}{0ex}
@@ -63,6 +71,19 @@ $if(work.visible)$
 $endif$
 $endfor$
 $endif$
+
+$if(show_skills)$
+$if(skills)$
+\sectionheader{Skills}
+$for(skills)$
+\indented[1em] \parbox{\spacebox}{\textit{$skills.category$}} 
+\hspace{1.5em} $skills.content$
+\par
+$endfor$
+$endif$
+$endif$
+
+\newpage
 
 $if(education)$
 \sectionheader{Education}
@@ -78,17 +99,6 @@ $endif$
 \indented \small $education.content$
 \normalsize \par\par
 $endfor$
-$endif$
-
-$if(show_skills)$
-$if(skills)$
-\sectionheader{Skills}
-$for(skills)$
-\indented[1em] \parbox{\spacebox}{\textit{$skills.category$}} 
-\hspace{1.5em} $skills.content$
-\par
-$endfor$
-$endif$
 $endif$
 
 $if(show_papers)$
